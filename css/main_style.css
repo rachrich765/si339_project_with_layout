@@ -19,6 +19,21 @@ h2 {
  	color:#E31824;
  }
 
+footer a .fa-instagram  {
+	font-size: 35px;
+ 	color: #E4405F;
+ }
+
+ footer a .fa-twitter-square  {
+ 	font-size: 35px;
+ 	color: #55ACEE;
+ }
+
+footer a .fa-spotify {
+	font-size: 35px;
+	color: #1DB954
+}
+
 .skip-main {
         position: absolute;
         top: -1000px;
