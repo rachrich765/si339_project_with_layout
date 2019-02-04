@@ -1,0 +1,65 @@
+body {
+	color: #000000;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	line-height: 28px;
+	font-size: 15px;
+}
+
+h1 {
+	color: #3CB371;
+	font-size: 25px;
+}
+
+h2 {
+	color: #3CB371;
+	font-size: 20px;
+}
+ .fa-pizza-slice {
+ 	color:#E31824;
+ }
+
+.skip-main {
+        position: absolute;
+        top: -1000px;
+        left: -1000px;
+        height: 1px;
+        width: 1px;
+        text-align: left;
+        overflow: hidden;
+    }
+    
+ 
+    a.skip-main:focus {
+        left: 0; 
+        top: 0;
+        width: auto; 
+        height: auto; 
+        overflow: visible; 
+    }
+
+
+footer nav div{
+	font-weight: bold
+}
+nav a {
+	color: #DC143C;
+}
+nav a.current {
+	color: 	#FF7F50;
+	background-color: #731873;
+	font-weight: bold;
+
+}
+
+img {
+  width:  350px;
+  height: 350px;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 500px 500px 500px;
+}
+
+
