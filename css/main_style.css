@@ -43,14 +43,16 @@ footer a .fa-spotify {
         text-align: left;
         overflow: hidden;
     }
-    
- 
+
     a.skip-main:focus {
-        left: 0; 
+    	left: 0; 
         top: 0;
         width: auto; 
         height: auto; 
         overflow: visible; 
+        z-index: 1;
+        color: #FFFFFF;
+        background-color: #F60909;
     }
 
 
@@ -60,9 +62,9 @@ footer nav div{
 nav a {
 	color: #DC143C;
 }
-nav a.current {
-	color: 	#FF7F50;
-	background-color: #731873;
+header nav a.current {
+	color: 	#FFFFFF;
+	background-color: #D81C99;
 	font-weight: bold;
 
 }
@@ -72,9 +74,75 @@ img {
   height: 350px;
 }
 
-.container{
-	display: grid;
-	grid-template-columns: 500px 500px 500px;
+.my-container {
+    position: relative;
+    background: #5C97FF;
+    overflow: hidden;
+}
+.my-container h1 {
+    padding: 200px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #FFFAFA;
+} 
+.my-container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100%;
+    opacity: 0.6;
 }
 
 
+li {
+  width: 200px;
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  justify-content: center;
+  text-align: center;
+  f font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  margin: 2px;
+  border-radius: 10px;
+}
+
+header nav a {
+  width: 200px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  background-color: #910C0C;
+  border-radius: 10px;
+  text-decoration: none;
+  color: beige;
+}
+
+
+header nav a:hover {
+  width: 200px;
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  font-size: 1.0em;
+  padding: 20px;
+  margin: 2px;
+  background-color: #E71D1D;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.flex-container .box {
+  width: 50%;
+  margin: 0px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 18px;
+}
