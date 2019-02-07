@@ -13,7 +13,7 @@ div{
 h1 {
 	color: #3CB371;
 	font-size: 25px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 h2 {
@@ -31,7 +31,7 @@ nav{
 }
 
 img {
-  width:  350px;
+  width:  250px;
   height: 350px;
 }
 
@@ -121,7 +121,7 @@ header nav a {
   width: 200px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+  font-size: 26.5px;
   background-color: #910C0C;
   border-radius: 10px;
   text-decoration: none;
@@ -194,20 +194,27 @@ height: 350px;}
 height: 350px;}
 
  /*flex layout contributors*/
- .flex-container-c {
+ /* Horizontal flex: rows
+   =====================
+*/
+
+.row-c {
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
 }
 
-.flex-container-c .box{
-  width: 50%;
-  margin: 0px;
-  text-align: center;
-  line-height: 25px;
-  font-size: 18px;
+.item-c {
+  flex: 1 1 1%;
 }
 
-.flex-container-c img{
-	width:150px;
-height: 250px;}
+
+/* Vertical flex: items
+   ===================
+*/
+
+.item-c {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
