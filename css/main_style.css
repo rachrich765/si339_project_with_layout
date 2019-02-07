@@ -12,18 +12,19 @@ div{
 
 h1 {
 	color: #3CB371;
-	font-size: 25px;
-	margin-bottom: 15px;
+	font-size: 55px;
+	margin-bottom: 25px;
 }
 
 h2 {
 	color: #3CB371;
-	font-size: 20px;
+	font-size: 30px;
+  margin-bottom: 25px;
 
 }
 h3 {
 	color: #3CB371;
-	font-size: 20px;
+	font-size: 25px;
 
 }
 
@@ -52,6 +53,13 @@ li {
   border-radius: 10px;
 }
 
+p{
+  font-size: 22px;
+}
+
+div {
+  font-size: 22px;
+}
 /*skip to content*/
 
 .skip-main {
@@ -170,74 +178,19 @@ height: 350px;}
   padding: 1px;
  flex: 100%;
 }
-.header-ec h3 {
-  font-size: 20px;
-  text-align: center;
-}
-.main {
-  text-align: center;
-  flex: 3 0px;
-  order: 2;
-  justify-content: left;
-}
-.main div{
-  text-align: center;
-}
-.main p{
-  text-align: left;
-}
-.aside {
-  flex: 1 2.5 ;
-  justify-content: center;
-}
-.aside-1 {
-  order: 1;
-  justify-content: center;
-}
-.aside-1 img {
-  width: 350px;
-  height:450px;
-  justify-content: center;
-}
-.aside-2 {
-  justify-content: center;
-  order: 2;
-}
-.aside-2 img {
-  width: 450px;
-  height:450px;
-  justify-content: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background: #f5f5f5;
-}
-
-.page-header {
-  text-align: center;
-}
 
 .wrapper {
-  display: flex;
   flex-direction: column;
   max-width: 100%;
-  margin: 5% auto 0;
-  border: .5px solid #EEE;
+  margin: 0;
     flex-direction: row;
   }
+
   .block {
     flex: .5px;
     padding: 0.5px;
       text-align: center;
-  }
-  .content {
-    padding: 1rem 2rem;
-}
-
+  }  
 
   .image-wrapper {
     width: 100%;
@@ -274,7 +227,7 @@ body {
 
 .flex-container-s .box{
   width: 50%;
-  margin: 0px;
+  margin-bottom: 0px;
   text-align: center;
   line-height: 25px;
   font-size: 18px;
