@@ -161,24 +161,54 @@ height: 350px;}
 
  /*flex layout east coast*/
 
-.boxes {
-  padding: .5vw;
-  justify-content: center;
+.wrapper {
   display: flex;
+  flex-flow: row wrap; /* задаем многострочность для всего flexbox */
+  text-align: center;
+}
+.wrapper > * {
+  padding: 1px;
+ flex: 1 100%;
+}
+.header-ec h3 {
+  font-size: 20px;
+  text-align: center;
+}
+.main {
+  text-align: center;
+  flex: 3 0px;
+  order: 2;
+  justify-content: center;
+}
+.main div{
+  text-align: center;
+}
+.main p{
+  text-align: center;
+}
+.aside {
+  flex: 1 2.5 ;
+  justify-content: center;
+}
+.aside-1 {
+  order: 1;
+  justify-content: center;
+}
+.aside-1 img {
+  width: 350px;
+  height:450px;
+  justify-content: center;
+}
+.aside-2 {
+  order: 3;
+  justify-content: center;
+}
+.aside-2 img {
+  width: 450px;
+  height:450px;
+  justify-content: center;
 }
 
-.box {
-  margin: .5vw;
-  padding: .5vw;
-  flex: 1 0 auto;
-  width: 300px;
-  font-size: 18px;
-  
-}
-.box img {
-  width:350px;
-  height: 350px;
-}
 
  /*flex layout south*/
 .flex-container-s {
