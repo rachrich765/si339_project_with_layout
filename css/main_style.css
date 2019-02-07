@@ -21,6 +21,11 @@ h2 {
 	font-size: 20px;
 
 }
+h3 {
+	color: #3CB371;
+	font-size: 20px;
+
+}
 
 nav a {
 	color: #DC143C;
@@ -118,12 +123,12 @@ footer a .fa-instagram  {
 
  /*header*/
 header nav a {
-  width: 200px;
+  width: 250px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  font-size: 26.5px;
+  font-size: 30px;
   background-color: #910C0C;
-  border-radius: 10px;
+  border-radius: 16px;
   text-decoration: none;
   color: #FFFFFF;
 }
@@ -155,6 +160,7 @@ header nav a.current {
 height: 350px;}
 
  /*flex layout east coast*/
+
 .boxes {
   padding: .5vw;
   justify-content: center;
@@ -215,6 +221,3 @@ height: 350px;}
   display: flex;
   flex-direction: column;
 }
-
-
-
