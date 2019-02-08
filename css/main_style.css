@@ -230,8 +230,8 @@ height: 350px;}
   }  
 
   .image-wrapper {
-    width: 125%;
-    height: 125%;
+    width: auto;
+    height: auto;
   }
 .image-wrapper img {
   width:350px;
