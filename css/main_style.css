@@ -221,12 +221,29 @@ height: 350px;}
     flex-direction: row;
   }
 
-  .block {
+  .block  {
     flex: .5px;
     padding: 0.5px;
-      text-align: center;
+      
   }  
 
+  .block-content-p  {
+   flex: .5px;
+    padding: 0.5px;
+      text-align: left;
+  } 
+    .block-content-d-mw  {
+   flex: .5px;
+    padding: 0.5px;
+      text-align: left;
+      margin-left: 150px;
+  } 
+.block-content-d-ec  {
+   flex: .5px;
+    padding: 0.5px;
+      text-align: left;
+      margin-left: 220px;
+  } 
   .image-wrapper {
     flex: 3;
 
