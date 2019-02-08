@@ -1,16 +1,21 @@
 body {
-	color: #000000;
-	font-family: 'Raleway', sans-serif;
-	text-align: center;
-	line-height: 28px;
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  line-height: 58px;
+  font-size: 35px;
+
 }
 
 .description {
-	margin-bottom: 40px;
+  margin-bottom: 40px;
   margin-left: 55px;
   margin-right: 55px;
   margin-top: 40px;
-  font-size: 24px;
+}
+
+.quick-start {
+  margin-bottom: 40px;
 }
 
 div {
@@ -18,30 +23,29 @@ div {
 }
 
 h1 {
-	color: #3CB371;
-	font-size: 55px;
-	margin-bottom: 25px;
+  color: #3CB371;
+  font-size: 55px;
+  margin-bottom: 45px;
   text-align: center;
 }
 
 h2 {
-	color: #3CB371;
-	font-size: 30px;
-  margin-bottom: 25px;
+  color: #3CB371;
+  font-size: 45px;
 
 }
 h3 {
-	color: #3CB371;
-	font-size: 25px;
-
+  color: #3CB371;
+  font-size: 38px; 
+  margin-top: 35px;
 }
 
 nav a {
-	color: #DC143C;
+  color: #DC143C;
 }
 
 nav{
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 img {
@@ -55,20 +59,15 @@ li {
   display: -webkit-inline-flex;
   justify-content: center;
   text-align: center;
-  f font-family: 'Raleway', sans-serif;
-  font-size: 1.5em;
+  font-family: 'Raleway', sans-serif;
   margin: 2px;
   border-radius: 10px;
 }
 
 p{
-  font-size: 23px;
   line-height: 36px;
 }
 
-div {
-  font-size: 22px;
-}
 /*skip to content*/
 
 .skip-main {
@@ -82,7 +81,7 @@ div {
     }
 
     a.skip-main:focus {
-    	left: 0; 
+      left: 0; 
         top: 0;
         width: auto; 
         height: auto; 
@@ -90,30 +89,31 @@ div {
         z-index: 1;
         color: #FFFFFF;
         background-color: #F60909;
+        font-size: 18px;
     }
 
  /*footer*/
 footer nav div{
-	font-weight: bold;
+  font-weight: bold;
 }
 
 footer a .fa-spotify {
-	font-size:55px;
-	color: #1DB954
+  font-size:55px;
+  color: #1DB954
 }
 
  .fa-pizza-slice {
- 	color:#E31824;
+  color:#E31824;
  }
 
 footer a .fa-instagram  {
-	font-size: 55px;
- 	color: #E4405F;
+  font-size: 55px;
+  color: #E4405F;
  }
 
  footer a .fa-twitter-square  {
- 	font-size: 55px;
- 	color: #55ACEE;
+  font-size: 55px;
+  color: #55ACEE;
  }
 
  /*background image main page*/
@@ -144,7 +144,6 @@ header nav li {
   width: 550px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  font-size: 30px;
   background-color: #910C0C;
   border-radius: 50px;
   text-decoration: none;
@@ -159,7 +158,6 @@ header nav li a{
   width: 550px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  font-size: 30px;
   background-color: #910C0C;
   border-radius: 500px;
   text-decoration: none;
@@ -174,11 +172,11 @@ header nav li a{
 header nav a.current {
   width: 550px;
   text-align: center;
-	border-radius: 500px;
+  border-radius: 500px;
   text-decoration: none;
   color: #FFFFFF;
-	background-color: #D81C99;
-	font-weight: bold;
+  background-color: #D81C99;
+  font-weight: bold;
   margin-right: 20px;
   margin-left: 20px;
   margin-top: 20px;
@@ -203,7 +201,7 @@ header nav a.current {
 }
 
 .flex-container-mw img{
-	width:350px;
+  width:350px;
 height: 350px;}
 
  /*flex layout east coast*/
@@ -273,7 +271,7 @@ height: 350px;}
 }
 
 .flex-container-s img{
-	width:350px;
+  width:350px;
 height: 350px;
 }
 
