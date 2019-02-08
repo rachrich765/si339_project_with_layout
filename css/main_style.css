@@ -9,8 +9,6 @@ body {
 
 .description {
   margin-bottom: 40px;
-  margin-left: 55px;
-  margin-right: 55px;
   margin-top: 40px;
 }
 
@@ -230,8 +228,8 @@ height: 350px;}
   }  
 
   .image-wrapper {
-    width: 100%;
-    height: auto;
+    flex: 1 1 1%;
+
   }
 .image-wrapper img {
   width:350px;
