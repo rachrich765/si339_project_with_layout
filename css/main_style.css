@@ -234,14 +234,13 @@ height: 350px;}
     .block-content-d-mw  {
    flex: .5px;
     padding: 0.5px;
-      text-align: left;
-      margin-left: 10px;
+     text-align: left;
+      
   } 
 .block-content-d-ec  {
    flex: .5px;
     padding: 0.5px;
       text-align: left;
-      margin-left: 10px;
   } 
   .image-wrapper {
     flex: 3;
