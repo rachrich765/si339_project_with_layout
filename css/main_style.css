@@ -229,7 +229,7 @@ height: 350px;}
   .block-content-p  {
    flex: .5px;
     padding: 0.5px;
-      text-align: left;
+      text-align: center;
   } 
     .block-content-d-mw  {
    flex: .5px;
@@ -241,7 +241,7 @@ height: 350px;}
    flex: .5px;
     padding: 0.5px;
       text-align: left;
-      margin-left: 200px;
+      margin-left: 120px;
   } 
   .image-wrapper {
     flex: 3;
