@@ -2,8 +2,8 @@ body {
   color: #000000;
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  line-height: 58px;
-  font-size: 35px;
+  line-height: 40px;
+  font-size: 30px;
 
 }
 
@@ -235,13 +235,13 @@ height: 350px;}
    flex: .5px;
     padding: 0.5px;
       text-align: left;
-      margin-left: 120px;
+      margin-left: 10px;
   } 
 .block-content-d-ec  {
    flex: .5px;
     padding: 0.5px;
       text-align: left;
-      margin-left: 120px;
+      margin-left: 10px;
   } 
   .image-wrapper {
     flex: 3;
