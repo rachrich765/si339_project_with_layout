@@ -213,12 +213,16 @@ header nav a.current {
   } 
     .block-content-d-mw  {
       text-align: left;
-      margin-top: -18px;
+      margin-top: -15px;
 
   } 
-.block-content-d-ec  {
+.block-content-d-ec-sals  {
       text-align: left;
       margin-top: -18px;
+  } 
+  .block-content-d-ec  {
+      text-align: left;
+      margin-top: -28px;
   } 
   .image-wrapper {
    flex-basis: .5%;
