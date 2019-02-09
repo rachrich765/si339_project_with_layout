@@ -196,33 +196,32 @@ header nav a.current {
 }
 
 .wrapper {
-  flex-direction: column;
   max-width: 100%;
     flex-direction: row;
   }
 
   .block  {
-    flex-basis: 1%;
+    flex-basis: .5%;
       
   }  
 
   .block-content-p  {
-   flex: .15px;
-    padding: .15px;
+   flex: .25px;
+    padding: .25px;
     text-align: center;
-     margin-left: 12px;
+     margin-left: 1px;
   } 
     .block-content-d-mw  {
-      margin-top: -25px;
       text-align: left;
+      margin-top: -18px;
 
   } 
 .block-content-d-ec  {
-  margin-top: -25px;
       text-align: left;
+      margin-top: -18px;
   } 
   .image-wrapper {
-   flex-basis: 1%;
+   flex-basis: .5%;
 
   }
 .image-wrapper img {
