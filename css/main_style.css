@@ -229,7 +229,9 @@ height: 350px;}
   .block-content-p  {
    flex: .5px;
     padding: 0.5px;
-      text-align: center;
+    text-align: center;
+     margin-right: 15px;
+     margin-left: 15px;
   } 
     .block-content-d-mw  {
    flex: .5px;
@@ -269,24 +271,7 @@ height: 350px;}
 
 
  /*flex layout south*/
-.flex-container-s {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-}
 
-.flex-container-s .box{
-  width: 50%;
-  margin-bottom: 0px;
-  text-align: center;
-  line-height: 25px;
-  font-size: 18px;
-}
-
-.flex-container-s img{
-  width:350px;
-height: 350px;
-}
 
  /*flex layout contributors*/
  /* Horizontal flex: rows
