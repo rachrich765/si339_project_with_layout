@@ -207,15 +207,12 @@ header nav a.current {
   }  
 
   .block-content-p  {
-   flex: .25px;
-    padding: 0.25px;
+   flex: .15px;
+    padding: .15px;
     text-align: center;
-     margin-right: 12px;
      margin-left: 12px;
   } 
     .block-content-d-mw  {
-   flex: .25px;
-    padding: 0.25px;
       text-align: left;
 
   } 
