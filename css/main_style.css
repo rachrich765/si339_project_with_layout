@@ -215,14 +215,20 @@ header nav a.current {
    flex: .5px;
     padding: 0.5px;
       text-align: left;
-       margin-top: -28px;
+       margin-top: -45px;
 
   } 
-.block-content-d-ec  {
+.block-content-d-ec-sals  {
    flex: .5px;
     padding: 0.5px;
       text-align: left;
       margin-top: -18px;
+  } 
+  .block-content-d-ec  {
+   flex: .5px;
+    padding: 0.5px;
+      text-align: left;
+      margin-top: -45px;
   } 
   .image-wrapper {
     flex: 3;
