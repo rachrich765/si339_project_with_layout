@@ -213,10 +213,12 @@ header nav a.current {
      margin-left: 12px;
   } 
     .block-content-d-mw  {
+      margin-top: -25px;
       text-align: left;
 
   } 
 .block-content-d-ec  {
+  margin-top: -25px;
       text-align: left;
   } 
   .image-wrapper {
